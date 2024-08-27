@@ -1,8 +1,8 @@
 <?php 
 
 class ATM {
-    $location;
-    $managedby;
+    private $location;
+    private $managedby;
 
     function identifies () {
         return false;

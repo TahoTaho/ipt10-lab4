@@ -1,11 +1,11 @@
 <?php 
 
 class ATMTransactions {
-    $transaction_id;
-    $date;
-    $type;
-    $amount;
-    $post_balance;
+    private $transaction_id;
+    private $date;
+    private $type;
+    private $amount;
+    private $post_balance;
 
     function modifies () {
         return false;

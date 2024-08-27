@@ -1,8 +1,8 @@
 <?php 
 
 class Bank {
-    $code;
-    $address;
+    private $code;
+    private $address;
 
     function manages() {
         return false;
